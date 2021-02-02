@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "name": "Page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Slug": {
+      "type": "uid",
+      "required": true
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "PageType": {
+      "type": "enumeration",
+      "enum": [
+        "Article",
+        "Default"
+      ],
+      "required": true
+    },
+    "Components": {
+      "type": "dynamiczone",
+      "components": [
+        "article.article",
+        "grid.article-grid"
+      ]
+    },
+    "Tags": {
+      "type": "string",
+      "required": false
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo-meta"
+    }
+  }
+}

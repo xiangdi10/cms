@@ -1,0 +1,56 @@
+{
+  "collectionName": "components_seo_seo_metas",
+  "info": {
+    "name": "SEOMeta",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "seoTitle": {
+      "type": "string",
+      "required": true,
+      "default": "SEO Title Placeholder"
+    },
+    "seoDescription": {
+      "type": "string",
+      "required": true,
+      "default": "Description Placeholder"
+    },
+    "seoSchema": {
+      "type": "json"
+    },
+    "ogGraphTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Title Placeholder"
+    },
+    "openGraphDescription": {
+      "type": "string",
+      "required": true
+    },
+    "openGraphTypes": {
+      "type": "enumeration",
+      "enum": [
+        "Article",
+        "Business",
+        "Object",
+        "Website",
+        "Product",
+        "Profile",
+        "Place"
+      ]
+    },
+    "openGraphImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
