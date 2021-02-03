@@ -10,6 +10,18 @@
     "Publisher": {
       "type": "string",
       "required": true
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Link": {
+      "type": "string",
+      "required": true
+    },
+    "Tags": {
+      "type": "string",
+      "required": true
     }
   }
 }
