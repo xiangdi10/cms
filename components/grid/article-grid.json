@@ -2,11 +2,12 @@
   "collectionName": "components_main_article_grids",
   "info": {
     "name": "Article-Grid",
-    "icon": "newspaper"
+    "icon": "newspaper",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "ArticleTitle": {
       "type": "string",
       "required": true,
       "default": "Montreal"
@@ -16,15 +17,13 @@
       "required": true,
       "default": "Suscipit posuere vestibulum odio malesuada vestibulum risus."
     },
-    "Tagline": {
+    "Publisher": {
       "type": "string",
       "private": false,
       "required": true
     },
-    "Article": {
-      "type": "component",
-      "repeatable": true,
-      "component": "article.article"
+    "LatestArticle": {
+      "type": "string"
     }
   }
 }

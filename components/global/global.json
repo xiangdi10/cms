@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_global_globals",
+  "info": {
+    "name": "Global",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "TaglineMagazine": {
+      "type": "string"
+    },
+    "TaglineSidebar": {
+      "type": "string"
+    },
+    "BackgroundColor": {
+      "type": "string"
+    },
+    "TextColor": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "BigTitle": {
+      "type": "string"
+    }
+  }
+}

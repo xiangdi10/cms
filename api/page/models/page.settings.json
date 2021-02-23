@@ -31,7 +31,11 @@
       "type": "dynamiczone",
       "components": [
         "article.article",
-        "grid.article-grid"
+        "grid.article-grid",
+        "navigation.navigation",
+        "book.book",
+        "social-component.social-component",
+        "global.global"
       ]
     },
     "Tags": {

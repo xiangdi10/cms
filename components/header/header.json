@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_header_headers",
+  "info": {
+    "name": "Header",
+    "icon": "adjust",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "The Main",
+      "required": true
+    },
+    "big_title": {
+      "type": "string",
+      "default": "Montreal",
+      "required": true
+    }
+  }
+}

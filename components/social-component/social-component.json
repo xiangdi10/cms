@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_social_component_social_components",
+  "info": {
+    "name": "Social Component",
+    "icon": "angle-left"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "SocialMedia": {
+      "type": "enumeration",
+      "enum": [
+        "Share",
+        "Like",
+        "Comment"
+      ]
+    }
+  }
+}

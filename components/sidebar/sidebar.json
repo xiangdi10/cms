@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sidebar_sidebars",
+  "info": {
+    "name": "Sidebar",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "The Main",
+      "required": true
+    },
+    "tagline": {
+      "type": "string",
+      "default": "Montreal is the best",
+      "required": true
+    }
+  }
+}

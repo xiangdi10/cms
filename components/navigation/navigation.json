@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_navigation_navigations",
+  "info": {
+    "name": "Navigation",
+    "icon": "location-arrow"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Reference": {
+      "type": "string"
+    }
+  }
+}
